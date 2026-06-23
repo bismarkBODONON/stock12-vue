@@ -14,8 +14,8 @@
 
 <script setup>
 import { ref, onMounted, watch } from "vue";
-import ProductForm from "./components/ProductForm.vue";
-import ProductList from "./components/ProductList.vue";
+import ProductForm from "./components/productForm.vue";
+import ProductList from "./components/productlist.vue";
 
 const products = ref([]);
 
